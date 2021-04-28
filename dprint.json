@@ -1,0 +1,13 @@
+{
+  "projectType": "openSource",
+  "typescript": {
+    "useTabs": false
+  },
+  "plugins": [
+    "https://plugins.dprint.dev/typescript-0.44.2.wasm",
+    "https://plugins.dprint.dev/json-0.10.2.wasm"
+  ],
+  "includes": [
+    "**/*.{ts,tsx,json,js,jsx}"
+  ]
+}
