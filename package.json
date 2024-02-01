@@ -1,13 +1,13 @@
 {
-    "scripts": {
-        "predemo": "curl -fsSL https://dprint.dev/install.sh | sh",
-        "start": "~/.dprint/bin/dprint fmt"
-    },
-    "devDependencies": {
-        "@types/node": "15.0.1",
-        "dprint-plugin-jsonc": "0.7.2",
-        "dprint-plugin-typescript": "0.20.4",
-        "ts-node": "9.1.1",
-        "typescript": "4.2.4"
-    }
+  "scripts": {
+    "predemo": "curl -fsSL https://dprint.dev/install.sh | sh",
+    "start": "~/.dprint/bin/dprint fmt"
+  },
+  "devDependencies": {
+    "@types/node": "15.0.1",
+    "dprint-plugin-jsonc": "0.7.2",
+    "dprint-plugin-typescript": "0.20.4",
+    "ts-node": "9.1.1",
+    "typescript": "5.3.3"
+  }
 }
